@@ -1,0 +1,46 @@
+.header {
+    margin: 0;
+    padding: 0;
+    
+    top: 0; left: 0;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.nav_logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding-left: 100px;
+    color: gray;
+}
+
+.nav_logo span{ 
+    font-size: 25px;
+    padding: 20px;
+}
+
+.nav_menu {
+    padding-right: 100px;
+}
+
+.nav_list {
+    display: flex;
+    list-style: none;
+}
+
+.nav_list li {
+    padding: 8px 20px;
+}
+
+.nav_list a {
+    font-size: 20px;
+    text-decoration: none;
+    color: gray;
+}
