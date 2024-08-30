@@ -15,7 +15,7 @@ export default function Header() {
                     <ul className={styles.nav_list}>
                         <li><Link href='/'>Home</Link></li>
                         <li><Link href='/about-me'>Projects</Link></li>
-                        <li><Link href='/404'>Content</Link></li>
+                        <li><Link href='/404'>Contect</Link></li>
                     </ul>
                 </div>
             </nav>

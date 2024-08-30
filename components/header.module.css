@@ -1,10 +1,11 @@
 .header {
+    background-color: #f8f9fa;
     margin: 0;
     padding: 0;
     
     top: 0; left: 0;
     width: 100%;
-    border-bottom: 2px solid rgb(95, 95, 95);
+    border-bottom: 2px solid #e7e7e7;
 }
 
 .navbar {
