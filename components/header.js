@@ -10,6 +10,7 @@ export default function Header() {
                     <Image src='/Logo.jpg' width={64} height={64}></Image>
                     <span>Portfolio</span>
                 </Link>
+                
                 <div className={styles.nav_menu}>
                     <ul className={styles.nav_list}>
                         <li><Link href='/'>Home</Link></li>
