@@ -14,6 +14,7 @@ export default function ProjectItem({data}) {
     const description = data.properties.설명.rich_text[0].plain_text;
     const github = data.properties.Github.url;
     const imgSrc = data.cover.file?.url || data.cover.external.url;
+
     const router = useRouter();
     
     function countWorkDays(start,end) {
@@ -47,6 +48,9 @@ export default function ProjectItem({data}) {
                     </Typography>
                     <Typography variant="body2" sx={{color : 'text.secondary'}}>
                         {description}
+                    </Typography>
+                    <Typography variant='body2' sx={{color : 'text.secondary'}}>
+                        {tag.map((aTag)=> (<span key={aTag.id}>#{aTag.name} </span>))}
                     </Typography>
                 </CardContent>
                 <CardActions>
