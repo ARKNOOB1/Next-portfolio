@@ -17,7 +17,7 @@ export default function Mainpage() {
                 <Grid size={4}>
                     <div className={styles.introduce}>
                         <h2 style={{fontSize : '45px'}}>안녕하세요</h2>
-                        <p>안녕하세요 제 이름은 피금황입니다. 현재 충주상업고등학교를 다니고있으며 스마트IT과에 재학중입니다. 취미는 게임이고 프로그래밍을 어느정도할 수 있습니다.</p>
+                        <p>안녕하세요 취미는 게임이고 프로그래밍을 배우고 있습니다.</p>
                         <Button variant="outlined" onClick={handleClick}>프로젝트 보러가기</Button>
                     </div>
                 </Grid>
