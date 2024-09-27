@@ -14,7 +14,7 @@ export default function Header() {
                 <div className={styles.nav_menu}>
                     <ul className={styles.nav_list}>
                         <li><Link href='/'>Home</Link></li>
-                        <li><Link href='/project'>Projects</Link></li>
+                        <li><Link href='/about-me'>AboutMe</Link></li>
                         <li><Link href='https://open.kakao.com/o/sRUGGxOg'>Contect</Link></li>
                     </ul>
                 </div>
